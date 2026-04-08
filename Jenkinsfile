@@ -13,8 +13,8 @@ pipeline {
 
         stage('Clone') {
             steps {
-                echo "Cloning repo..."
-                git 'https://github.com/YOUR_USERNAME/demo-jenkins-app.git'
+                echo "Cloning repo...."
+                git 'https://github.com/chaithanya-codes/democicd.git'
             }
         }
 
