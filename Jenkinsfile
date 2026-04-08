@@ -13,7 +13,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                echo "Cloning repo...."
+                echo "Cloning repo....."
                 git 'https://github.com/chaithanya-codes/democicd.git'
             }
         }
